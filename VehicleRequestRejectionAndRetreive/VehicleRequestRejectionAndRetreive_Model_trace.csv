@@ -1,0 +1,804 @@
+Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
+0,--,--,--,--,System initialization completed.
+0,--,--,--,--,Created object 'MainCars[1]'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Begin],Process 'MainCars[1].OnCreated' execution started.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[1],MainCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[1].HomeNode' the value 'Home'. Previous value was 'Nothing'.
+0,MainCars[1],MainCars[1],0.OnCreated,[End],Process 'MainCars[1].OnCreated' execution ended.
+0,--,--,--,--,Created object 'MainCars[2]'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Begin],Process 'MainCars[2].OnCreated' execution started.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0,MainCars[2],MainCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MainCars[2].HomeNode' the value 'Home'. Previous value was 'Nothing'.
+0,MainCars[2],MainCars[2],0.OnCreated,[End],Process 'MainCars[2].OnCreated' execution ended.
+0,--,--,--,--,Created object 'BackupCars[1]'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Begin],Process 'BackupCars[1].OnCreated' execution started.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[1].HomeNode' the value 'Home'. Previous value was 'Nothing'.
+0,BackupCars[1],BackupCars[1],0.OnCreated,[End],Process 'BackupCars[1].OnCreated' execution ended.
+0,--,--,--,--,Created object 'BackupCars[2]'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Begin],Process 'BackupCars[2].OnCreated' execution started.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'BackupCars[2].HomeNode' the value 'Home'. Previous value was 'Nothing'.
+0,BackupCars[2],BackupCars[2],0.OnCreated,[End],Process 'BackupCars[2].OnCreated' execution ended.
+0,Output@OrderSource,Output@OrderSource,0.OnRunInitialized,[Begin],Process 'Output@OrderSource.OnRunInitialized' execution started.
+0,Output@OrderSource,Output@OrderSource,0.OnRunInitialized,[End],Process 'Output@OrderSource.OnRunInitialized' execution ended.
+0,Input@Depot,Input@Depot,0.OnRunInitialized,[Begin],Process 'Input@Depot.OnRunInitialized' execution started.
+0,Input@Depot,Input@Depot,0.OnRunInitialized,[End],Process 'Input@Depot.OnRunInitialized' execution ended.
+0,PickLocation,PickLocation,0.OnRunInitialized,[Begin],Process 'PickLocation.OnRunInitialized' execution started.
+0,PickLocation,PickLocation,0.OnRunInitialized,[End],Process 'PickLocation.OnRunInitialized' execution ended.
+0,Home,Home,0.OnRunInitialized,[Begin],Process 'Home.OnRunInitialized' execution started.
+0,Home,Home,0.OnRunInitialized,[End],Process 'Home.OnRunInitialized' execution ended.
+0,OrderSource,OrderSource,0.OnRunInitialized,[Begin],Process 'OrderSource.OnRunInitialized' execution started.
+0,OrderSource,OrderSource,0.OnRunInitialized,[End],Process 'OrderSource.OnRunInitialized' execution ended.
+0,Depot,Depot,0.OnRunInitialized,[Begin],Process 'Depot.OnRunInitialized' execution started.
+0,Depot,Depot,0.OnRunInitialized,[End],Process 'Depot.OnRunInitialized' execution ended.
+0,Path1,Path1,0.OnRunInitialized,[Begin],Process 'Path1.OnRunInitialized' execution started.
+0,Path1,Path1,0.OnRunInitialized,[End],Process 'Path1.OnRunInitialized' execution ended.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[Begin],Process 'MainCars[1].OnRunInitialized' execution started.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[Execute] RunInitializedAddOnProcess,Executing process 'SetMainCarsIndex'.
+0,MainCars[1],Model,1.SetMainCarsIndex,[Begin],Process 'SetMainCarsIndex' execution started.
+0,MainCars[1],Model,1.SetMainCarsIndex,[Assign] AssignIndex,Assigning state variable 'MainCars[1].Index' the value '1'. Previous value was '0'.
+0,MainCars[1],Model,1.SetMainCarsIndex,[End],Process 'SetMainCarsIndex' execution ended.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[Park] AtInitialNode,Entity 'MainCars[1]' transferring from '[FreeSpace] Model' into station 'Home.ParkingStation'.
+0,MainCars[1],Home,1.OnEnteredParking,[Begin],Process 'Home.OnEnteredParking' execution started.
+0,MainCars[1],Home,1.OnEnteredParking,[EndTransfer] EndTransfer,Entity 'MainCars[1]' ending transfer into station 'Home.ParkingStation'.
+0,MainCars[1],Home,1.OnEnteredParking,[End],Process 'Home.OnEnteredParking' execution ended.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[Begin],Process 'MainCars[2].OnRunInitialized' execution started.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[Execute] RunInitializedAddOnProcess,Executing process 'SetMainCarsIndex'.
+0,MainCars[2],Model,2.SetMainCarsIndex,[Begin],Process 'SetMainCarsIndex' execution started.
+0,MainCars[2],Model,2.SetMainCarsIndex,[Assign] AssignIndex,Assigning state variable 'MainCars[2].Index' the value '2'. Previous value was '0'.
+0,MainCars[2],Model,2.SetMainCarsIndex,[End],Process 'SetMainCarsIndex' execution ended.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[Park] AtInitialNode,Entity 'MainCars[2]' transferring from '[FreeSpace] Model' into station 'Home.ParkingStation'.
+0,MainCars[2],Home,2.OnEnteredParking,[Begin],Process 'Home.OnEnteredParking' execution started.
+0,MainCars[2],Home,2.OnEnteredParking,[EndTransfer] EndTransfer,Entity 'MainCars[2]' ending transfer into station 'Home.ParkingStation'.
+0,MainCars[2],Home,2.OnEnteredParking,[End],Process 'Home.OnEnteredParking' execution ended.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[Begin],Process 'BackupCars[1].OnRunInitialized' execution started.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[Execute] RunInitializedAddOnProcess,Executing process 'SetBackupCarsIndex'.
+0,BackupCars[1],Model,3.SetBackupCarsIndex,[Begin],Process 'SetBackupCarsIndex' execution started.
+0,BackupCars[1],Model,3.SetBackupCarsIndex,[Assign] AssignIndex,Assigning state variable 'BackupCars[1].Index' the value '1'. Previous value was '0'.
+0,BackupCars[1],Model,3.SetBackupCarsIndex,[End],Process 'SetBackupCarsIndex' execution ended.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[Park] AtInitialNode,Entity 'BackupCars[1]' transferring from '[FreeSpace] Model' into station 'Home.ParkingStation'.
+0,BackupCars[1],Home,3.OnEnteredParking,[Begin],Process 'Home.OnEnteredParking' execution started.
+0,BackupCars[1],Home,3.OnEnteredParking,[EndTransfer] EndTransfer,Entity 'BackupCars[1]' ending transfer into station 'Home.ParkingStation'.
+0,BackupCars[1],Home,3.OnEnteredParking,[End],Process 'Home.OnEnteredParking' execution ended.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[Begin],Process 'BackupCars[2].OnRunInitialized' execution started.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[Execute] RunInitializedAddOnProcess,Executing process 'SetBackupCarsIndex'.
+0,BackupCars[2],Model,4.SetBackupCarsIndex,[Begin],Process 'SetBackupCarsIndex' execution started.
+0,BackupCars[2],Model,4.SetBackupCarsIndex,[Assign] AssignIndex,Assigning state variable 'BackupCars[2].Index' the value '2'. Previous value was '0'.
+0,BackupCars[2],Model,4.SetBackupCarsIndex,[End],Process 'SetBackupCarsIndex' execution ended.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[Park] AtInitialNode,Entity 'BackupCars[2]' transferring from '[FreeSpace] Model' into station 'Home.ParkingStation'.
+0,BackupCars[2],Home,4.OnEnteredParking,[Begin],Process 'Home.OnEnteredParking' execution started.
+0,BackupCars[2],Home,4.OnEnteredParking,[EndTransfer] EndTransfer,Entity 'BackupCars[2]' ending transfer into station 'Home.ParkingStation'.
+0,BackupCars[2],Home,4.OnEnteredParking,[End],Process 'Home.OnEnteredParking' execution ended.
+0,Path3,Path3,4.OnRunInitialized,[Begin],Process 'Path3.OnRunInitialized' execution started.
+0,Path3,Path3,4.OnRunInitialized,[End],Process 'Path3.OnRunInitialized' execution ended.
+0,TimePath1,TimePath1,4.OnRunInitialized,[Begin],Process 'TimePath1.OnRunInitialized' execution started.
+0,TimePath1,TimePath1,4.OnRunInitialized,[End],Process 'TimePath1.OnRunInitialized' execution ended.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[Decide] IfOnShift,Token branching on condition 'ResourceState!=List.ResourceStateName.OffShift'.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[Decide] IfOnShift,Token sent to 'True' exit.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MainCars[1]' searching 'Model.Global.VisitRequestQueue' which contains '0' request(s).
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MainCars[1]' failed to find and plan an eligible visit request.
+0,MainCars[1],MainCars[1],0.OnRunInitialized,[End],Process 'MainCars[1].OnRunInitialized' execution ended.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[Decide] IfOnShift,Token branching on condition 'ResourceState!=List.ResourceStateName.OffShift'.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[Decide] IfOnShift,Token sent to 'True' exit.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MainCars[2]' searching 'Model.Global.VisitRequestQueue' which contains '0' request(s).
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MainCars[2]' failed to find and plan an eligible visit request.
+0,MainCars[2],MainCars[2],1.OnRunInitialized,[End],Process 'MainCars[2].OnRunInitialized' execution ended.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[Decide] IfOnShift,Token branching on condition 'ResourceState!=List.ResourceStateName.OffShift'.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[Decide] IfOnShift,Token sent to 'True' exit.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'BackupCars[1]' searching 'Model.Global.VisitRequestQueue' which contains '0' request(s).
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'BackupCars[1]' failed to find and plan an eligible visit request.
+0,BackupCars[1],BackupCars[1],2.OnRunInitialized,[End],Process 'BackupCars[1].OnRunInitialized' execution ended.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[Decide] IfOnShift,Token branching on condition 'ResourceState!=List.ResourceStateName.OffShift'.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[Decide] IfOnShift,Token sent to 'True' exit.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'BackupCars[2]' searching 'Model.Global.VisitRequestQueue' which contains '0' request(s).
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'BackupCars[2]' failed to find and plan an eligible visit request.
+0,BackupCars[2],BackupCars[2],3.OnRunInitialized,[End],Process 'BackupCars[2].OnRunInitialized' execution ended.
+0,--,--,--,--,Firing event 'OrderSource.EntityArrivals.Event'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Begin],Process 'OrderSource.OnEntityArrival' execution started.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Creating '1' new object(s) of entity type 'Order'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Created object 'Order.17'.
+0,Order.17,OrderSource,2.OnEntityArrival,[Transfer] ToProcessing,Entity 'Order.17' transferring from '[FreeSpace] OrderSource' into station 'OrderSource.Processing'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.17,OrderSource,1.OnEnteredProcessing,[Begin],Process 'OrderSource.OnEnteredProcessing' execution started.
+0,Order.17,OrderSource,1.OnEnteredProcessing,[EndTransfer] IntoProcessing,Entity 'Order.17' ending transfer into station 'OrderSource.Processing'.
+0,Order.17,OrderSource,1.OnEnteredProcessing,[Transfer] ToOutputBuffer,Entity 'Order.17' transferring from '[Station] OrderSource.Processing' into station 'OrderSource.OutputBuffer'.
+0,Order.17,OrderSource,2.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.17,OrderSource,3.OnExitedProcessing,[Begin],Process 'OrderSource.OnExitedProcessing' execution started.
+0,Order.17,OrderSource,3.OnExitedProcessing,[End],Process 'OrderSource.OnExitedProcessing' execution ended.
+0,Order.17,OrderSource,0.OnEnteredOutputBuffer,[Begin],Process 'OrderSource.OnEnteredOutputBuffer' execution started.
+0,Order.17,OrderSource,0.OnEnteredOutputBuffer,[EndTransfer] IntoOutputBuffer,Entity 'Order.17' ending transfer into station 'OrderSource.OutputBuffer'.
+0,Order.17,OrderSource,0.OnEnteredOutputBuffer,[Transfer] ToOutputNode,Entity 'Order.17' transferring from '[Station] OrderSource.OutputBuffer' into node 'Output@OrderSource'.
+0,Order.17,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Begin],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution started.
+0,Order.17,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Fire] EnteredEvent,Firing event 'Output@OrderSource.Entered'.
+0,Order.17,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Execute] EnteredAddOnProcess,Executing process 'AssignValueAfterCreated'.
+0,Order.17,Model,2.AssignValueAfterCreated,[Begin],Process 'AssignValueAfterCreated' execution started.
+0,Order.17,Model,2.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.17.Picture' the value '0'. Previous value was '0'.
+0,Order.17,Model,2.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.17.Priorty' the value '0'. Previous value was '0'.
+0,Order.17,Model,2.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.17.RiderIndex' the value '1'. Previous value was '0'.
+0,Order.17,Model,2.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.17.RiderType' the value 'MainCars'. Previous value was ''.
+0,Order.17,Model,2.AssignValueAfterCreated,[End],Process 'AssignValueAfterCreated' execution ended.
+0,Order.17,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Transfer] ToOutboundLink,Entity 'Order.17' transferring from '[Node] Output@OrderSource' onto link 'TimePath1'.
+0,Order.17,TimePath1,2.OnEntered,[Begin],Process 'TimePath1.OnEntered' execution started.
+0,Order.17,TimePath1,2.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'TimePath1.Token.2.ReturnValue' the value '0.0166666666666667'. Previous value was '1'.
+0,Order.17,TimePath1,2.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'Order.17.Movement.Rate' the value '390' Meters per Hour. Previous value was '5040' Meters per Hour.
+0,Order.17,TimePath1,2.OnEntered,[EndTransfer] OntoTimePath,Entity 'Order.17' ending transfer onto link 'TimePath1'.
+0,Order.17,TimePath1,2.OnEntered,[End],Process 'TimePath1.OnEntered' execution ended.
+0,Order.17,OrderSource,1.OnEnteredProcessing,[End],Process 'OrderSource.OnEnteredProcessing' execution ended.
+0,Order.17,OrderSource,4.OnExitedOutputBuffer,[Begin],Process 'OrderSource.OnExitedOutputBuffer' execution started.
+0,Order.17,OrderSource,4.OnExitedOutputBuffer,[End],Process 'OrderSource.OnExitedOutputBuffer' execution ended.
+0,Order.17,OrderSource,0.OnEnteredOutputBuffer,[End],Process 'OrderSource.OnEnteredOutputBuffer' execution ended.
+0,Order.17,Output@OrderSource,3.OnEnteredFromAssociatedObject,[End],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution ended.
+0,--,--,--,--,Firing event 'OrderSource.EntityArrivals.Event'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Begin],Process 'OrderSource.OnEntityArrival' execution started.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Creating '1' new object(s) of entity type 'Order'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Created object 'Order.18'.
+0,Order.18,OrderSource,0.OnEntityArrival,[Transfer] ToProcessing,Entity 'Order.18' transferring from '[FreeSpace] OrderSource' into station 'OrderSource.Processing'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.18,OrderSource,4.OnEnteredProcessing,[Begin],Process 'OrderSource.OnEnteredProcessing' execution started.
+0,Order.18,OrderSource,4.OnEnteredProcessing,[EndTransfer] IntoProcessing,Entity 'Order.18' ending transfer into station 'OrderSource.Processing'.
+0,Order.18,OrderSource,4.OnEnteredProcessing,[Transfer] ToOutputBuffer,Entity 'Order.18' transferring from '[Station] OrderSource.Processing' into station 'OrderSource.OutputBuffer'.
+0,Order.18,OrderSource,0.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.18,OrderSource,3.OnEnteredOutputBuffer,[Begin],Process 'OrderSource.OnEnteredOutputBuffer' execution started.
+0,Order.18,OrderSource,3.OnEnteredOutputBuffer,[EndTransfer] IntoOutputBuffer,Entity 'Order.18' ending transfer into station 'OrderSource.OutputBuffer'.
+0,Order.18,OrderSource,3.OnEnteredOutputBuffer,[Transfer] ToOutputNode,Entity 'Order.18' transferring from '[Station] OrderSource.OutputBuffer' into node 'Output@OrderSource'.
+0,Order.18,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Begin],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution started.
+0,Order.18,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Fire] EnteredEvent,Firing event 'Output@OrderSource.Entered'.
+0,Order.18,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Execute] EnteredAddOnProcess,Executing process 'AssignValueAfterCreated'.
+0,Order.18,Model,1.AssignValueAfterCreated,[Begin],Process 'AssignValueAfterCreated' execution started.
+0,Order.18,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.18.Picture' the value '1'. Previous value was '0'.
+0,Order.18,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.18.Priorty' the value '1'. Previous value was '0'.
+0,Order.18,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.18.RiderIndex' the value '1'. Previous value was '0'.
+0,Order.18,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.18.RiderType' the value 'MainCars'. Previous value was ''.
+0,Order.18,Model,1.AssignValueAfterCreated,[End],Process 'AssignValueAfterCreated' execution ended.
+0,Order.18,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Transfer] ToOutboundLink,Entity 'Order.18' transferring from '[Node] Output@OrderSource' onto link 'TimePath1'.
+0,Order.18,TimePath1,1.OnEntered,[Begin],Process 'TimePath1.OnEntered' execution started.
+0,Order.18,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'TimePath1.Token.1.ReturnValue' the value '0.0166666666666667'. Previous value was '1'.
+0,Order.18,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'Order.18.Movement.Rate' the value '390' Meters per Hour. Previous value was '5040' Meters per Hour.
+0,Order.18,TimePath1,1.OnEntered,[EndTransfer] OntoTimePath,Entity 'Order.18' ending transfer onto link 'TimePath1'.
+0,Order.18,TimePath1,1.OnEntered,[End],Process 'TimePath1.OnEntered' execution ended.
+0,Order.18,OrderSource,4.OnEnteredProcessing,[End],Process 'OrderSource.OnEnteredProcessing' execution ended.
+0,Order.18,OrderSource,3.OnEnteredOutputBuffer,[End],Process 'OrderSource.OnEnteredOutputBuffer' execution ended.
+0,Order.18,Output@OrderSource,0.OnEnteredFromAssociatedObject,[End],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution ended.
+0,--,--,--,--,Firing event 'OrderSource.EntityArrivals.Event'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Begin],Process 'OrderSource.OnEntityArrival' execution started.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Create] Entities,Creating '1' new object(s) of entity type 'Order'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Create] Entities,Created object 'Order.19'.
+0,Order.19,OrderSource,3.OnEntityArrival,[Transfer] ToProcessing,Entity 'Order.19' transferring from '[FreeSpace] OrderSource' into station 'OrderSource.Processing'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.19,OrderSource,4.OnEnteredProcessing,[Begin],Process 'OrderSource.OnEnteredProcessing' execution started.
+0,Order.19,OrderSource,4.OnEnteredProcessing,[EndTransfer] IntoProcessing,Entity 'Order.19' ending transfer into station 'OrderSource.Processing'.
+0,Order.19,OrderSource,4.OnEnteredProcessing,[Transfer] ToOutputBuffer,Entity 'Order.19' transferring from '[Station] OrderSource.Processing' into station 'OrderSource.OutputBuffer'.
+0,Order.19,OrderSource,3.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.19,OrderSource,0.OnEnteredOutputBuffer,[Begin],Process 'OrderSource.OnEnteredOutputBuffer' execution started.
+0,Order.19,OrderSource,0.OnEnteredOutputBuffer,[EndTransfer] IntoOutputBuffer,Entity 'Order.19' ending transfer into station 'OrderSource.OutputBuffer'.
+0,Order.19,OrderSource,0.OnEnteredOutputBuffer,[Transfer] ToOutputNode,Entity 'Order.19' transferring from '[Station] OrderSource.OutputBuffer' into node 'Output@OrderSource'.
+0,Order.19,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Begin],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution started.
+0,Order.19,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Fire] EnteredEvent,Firing event 'Output@OrderSource.Entered'.
+0,Order.19,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Execute] EnteredAddOnProcess,Executing process 'AssignValueAfterCreated'.
+0,Order.19,Model,1.AssignValueAfterCreated,[Begin],Process 'AssignValueAfterCreated' execution started.
+0,Order.19,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.19.Picture' the value '2'. Previous value was '0'.
+0,Order.19,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.19.Priorty' the value '2'. Previous value was '0'.
+0,Order.19,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.19.RiderIndex' the value '1'. Previous value was '0'.
+0,Order.19,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.19.RiderType' the value 'MainCars'. Previous value was ''.
+0,Order.19,Model,1.AssignValueAfterCreated,[End],Process 'AssignValueAfterCreated' execution ended.
+0,Order.19,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Transfer] ToOutboundLink,Entity 'Order.19' transferring from '[Node] Output@OrderSource' onto link 'TimePath1'.
+0,Order.19,TimePath1,1.OnEntered,[Begin],Process 'TimePath1.OnEntered' execution started.
+0,Order.19,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'TimePath1.Token.1.ReturnValue' the value '0.0166666666666667'. Previous value was '1'.
+0,Order.19,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'Order.19.Movement.Rate' the value '390' Meters per Hour. Previous value was '5040' Meters per Hour.
+0,Order.19,TimePath1,1.OnEntered,[EndTransfer] OntoTimePath,Entity 'Order.19' ending transfer onto link 'TimePath1'.
+0,Order.19,TimePath1,1.OnEntered,[End],Process 'TimePath1.OnEntered' execution ended.
+0,Order.19,OrderSource,4.OnEnteredProcessing,[End],Process 'OrderSource.OnEnteredProcessing' execution ended.
+0,Order.19,OrderSource,0.OnEnteredOutputBuffer,[End],Process 'OrderSource.OnEnteredOutputBuffer' execution ended.
+0,Order.19,Output@OrderSource,3.OnEnteredFromAssociatedObject,[End],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution ended.
+0,--,--,--,--,Firing event 'OrderSource.EntityArrivals.Event'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Begin],Process 'OrderSource.OnEntityArrival' execution started.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Creating '1' new object(s) of entity type 'Order'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[Create] Entities,Created object 'Order.20'.
+0,Order.20,OrderSource,0.OnEntityArrival,[Transfer] ToProcessing,Entity 'Order.20' transferring from '[FreeSpace] OrderSource' into station 'OrderSource.Processing'.
+0,OrderSource,OrderSource,3.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.20,OrderSource,4.OnEnteredProcessing,[Begin],Process 'OrderSource.OnEnteredProcessing' execution started.
+0,Order.20,OrderSource,4.OnEnteredProcessing,[EndTransfer] IntoProcessing,Entity 'Order.20' ending transfer into station 'OrderSource.Processing'.
+0,Order.20,OrderSource,4.OnEnteredProcessing,[Transfer] ToOutputBuffer,Entity 'Order.20' transferring from '[Station] OrderSource.Processing' into station 'OrderSource.OutputBuffer'.
+0,Order.20,OrderSource,0.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.20,OrderSource,3.OnEnteredOutputBuffer,[Begin],Process 'OrderSource.OnEnteredOutputBuffer' execution started.
+0,Order.20,OrderSource,3.OnEnteredOutputBuffer,[EndTransfer] IntoOutputBuffer,Entity 'Order.20' ending transfer into station 'OrderSource.OutputBuffer'.
+0,Order.20,OrderSource,3.OnEnteredOutputBuffer,[Transfer] ToOutputNode,Entity 'Order.20' transferring from '[Station] OrderSource.OutputBuffer' into node 'Output@OrderSource'.
+0,Order.20,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Begin],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution started.
+0,Order.20,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Fire] EnteredEvent,Firing event 'Output@OrderSource.Entered'.
+0,Order.20,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Execute] EnteredAddOnProcess,Executing process 'AssignValueAfterCreated'.
+0,Order.20,Model,1.AssignValueAfterCreated,[Begin],Process 'AssignValueAfterCreated' execution started.
+0,Order.20,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.20.Picture' the value '3'. Previous value was '0'.
+0,Order.20,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.20.Priorty' the value '0'. Previous value was '0'.
+0,Order.20,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.20.RiderIndex' the value '2'. Previous value was '0'.
+0,Order.20,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.20.RiderType' the value 'BackupCars'. Previous value was ''.
+0,Order.20,Model,1.AssignValueAfterCreated,[End],Process 'AssignValueAfterCreated' execution ended.
+0,Order.20,Output@OrderSource,0.OnEnteredFromAssociatedObject,[Transfer] ToOutboundLink,Entity 'Order.20' transferring from '[Node] Output@OrderSource' onto link 'TimePath1'.
+0,Order.20,TimePath1,1.OnEntered,[Begin],Process 'TimePath1.OnEntered' execution started.
+0,Order.20,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'TimePath1.Token.1.ReturnValue' the value '0.0166666666666667'. Previous value was '1'.
+0,Order.20,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'Order.20.Movement.Rate' the value '390' Meters per Hour. Previous value was '5040' Meters per Hour.
+0,Order.20,TimePath1,1.OnEntered,[EndTransfer] OntoTimePath,Entity 'Order.20' ending transfer onto link 'TimePath1'.
+0,Order.20,TimePath1,1.OnEntered,[End],Process 'TimePath1.OnEntered' execution ended.
+0,Order.20,OrderSource,4.OnEnteredProcessing,[End],Process 'OrderSource.OnEnteredProcessing' execution ended.
+0,Order.20,OrderSource,3.OnEnteredOutputBuffer,[End],Process 'OrderSource.OnEnteredOutputBuffer' execution ended.
+0,Order.20,Output@OrderSource,0.OnEnteredFromAssociatedObject,[End],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution ended.
+0,--,--,--,--,Firing event 'OrderSource.EntityArrivals.Event'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Begin],Process 'OrderSource.OnEntityArrival' execution started.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Create] Entities,Creating '1' new object(s) of entity type 'Order'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[Create] Entities,Created object 'Order.21'.
+0,Order.21,OrderSource,3.OnEntityArrival,[Transfer] ToProcessing,Entity 'Order.21' transferring from '[FreeSpace] OrderSource' into station 'OrderSource.Processing'.
+0,OrderSource,OrderSource,0.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.21,OrderSource,4.OnEnteredProcessing,[Begin],Process 'OrderSource.OnEnteredProcessing' execution started.
+0,Order.21,OrderSource,4.OnEnteredProcessing,[EndTransfer] IntoProcessing,Entity 'Order.21' ending transfer into station 'OrderSource.Processing'.
+0,Order.21,OrderSource,4.OnEnteredProcessing,[Transfer] ToOutputBuffer,Entity 'Order.21' transferring from '[Station] OrderSource.Processing' into station 'OrderSource.OutputBuffer'.
+0,Order.21,OrderSource,3.OnEntityArrival,[End],Process 'OrderSource.OnEntityArrival' execution ended.
+0,Order.21,OrderSource,0.OnEnteredOutputBuffer,[Begin],Process 'OrderSource.OnEnteredOutputBuffer' execution started.
+0,Order.21,OrderSource,0.OnEnteredOutputBuffer,[EndTransfer] IntoOutputBuffer,Entity 'Order.21' ending transfer into station 'OrderSource.OutputBuffer'.
+0,Order.21,OrderSource,0.OnEnteredOutputBuffer,[Transfer] ToOutputNode,Entity 'Order.21' transferring from '[Station] OrderSource.OutputBuffer' into node 'Output@OrderSource'.
+0,Order.21,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Begin],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution started.
+0,Order.21,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Fire] EnteredEvent,Firing event 'Output@OrderSource.Entered'.
+0,Order.21,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Execute] EnteredAddOnProcess,Executing process 'AssignValueAfterCreated'.
+0,Order.21,Model,1.AssignValueAfterCreated,[Begin],Process 'AssignValueAfterCreated' execution started.
+0,Order.21,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.21.Picture' the value '4'. Previous value was '0'.
+0,Order.21,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.21.Priorty' the value '1'. Previous value was '0'.
+0,Order.21,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.21.RiderIndex' the value '2'. Previous value was '0'.
+0,Order.21,Model,1.AssignValueAfterCreated,[Assign] AssignValues,Assigning state variable 'Order.21.RiderType' the value 'BackupCars'. Previous value was ''.
+0,Order.21,Model,1.AssignValueAfterCreated,[End],Process 'AssignValueAfterCreated' execution ended.
+0,Order.21,Output@OrderSource,3.OnEnteredFromAssociatedObject,[Transfer] ToOutboundLink,Entity 'Order.21' transferring from '[Node] Output@OrderSource' onto link 'TimePath1'.
+0,Order.21,TimePath1,1.OnEntered,[Begin],Process 'TimePath1.OnEntered' execution started.
+0,Order.21,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'TimePath1.Token.1.ReturnValue' the value '0.0166666666666667'. Previous value was '1'.
+0,Order.21,TimePath1,1.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'Order.21.Movement.Rate' the value '390' Meters per Hour. Previous value was '5040' Meters per Hour.
+0,Order.21,TimePath1,1.OnEntered,[EndTransfer] OntoTimePath,Entity 'Order.21' ending transfer onto link 'TimePath1'.
+0,Order.21,TimePath1,1.OnEntered,[End],Process 'TimePath1.OnEntered' execution ended.
+0,Order.21,OrderSource,4.OnEnteredProcessing,[End],Process 'OrderSource.OnEnteredProcessing' execution ended.
+0,Order.21,OrderSource,0.OnEnteredOutputBuffer,[End],Process 'OrderSource.OnEnteredOutputBuffer' execution ended.
+0,Order.21,Output@OrderSource,3.OnEnteredFromAssociatedObject,[End],Process 'Output@OrderSource.OnEnteredFromAssociatedObject' execution ended.
+0.00128205128205128,Order.17,Output@OrderSource,3.OnExited,[Begin],Process 'Output@OrderSource.OnExited' execution started.
+0.00128205128205128,Order.17,Output@OrderSource,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@OrderSource.Exited'.
+0.00128205128205128,Order.17,Output@OrderSource,3.OnExited,[End],Process 'Output@OrderSource.OnExited' execution ended.
+0.00128205128205128,Order.17,TimePath1,3.OnTrailingEdgeEntered,[Begin],Process 'TimePath1.OnTrailingEdgeEntered' execution started.
+0.00128205128205128,Order.17,TimePath1,3.OnTrailingEdgeEntered,[End],Process 'TimePath1.OnTrailingEdgeEntered' execution ended.
+0.00128205128205128,Order.18,Output@OrderSource,3.OnExited,[Begin],Process 'Output@OrderSource.OnExited' execution started.
+0.00128205128205128,Order.18,Output@OrderSource,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@OrderSource.Exited'.
+0.00128205128205128,Order.18,Output@OrderSource,3.OnExited,[End],Process 'Output@OrderSource.OnExited' execution ended.
+0.00128205128205128,Order.19,Output@OrderSource,3.OnExited,[Begin],Process 'Output@OrderSource.OnExited' execution started.
+0.00128205128205128,Order.19,Output@OrderSource,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@OrderSource.Exited'.
+0.00128205128205128,Order.19,Output@OrderSource,3.OnExited,[End],Process 'Output@OrderSource.OnExited' execution ended.
+0.00128205128205128,Order.20,Output@OrderSource,3.OnExited,[Begin],Process 'Output@OrderSource.OnExited' execution started.
+0.00128205128205128,Order.20,Output@OrderSource,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@OrderSource.Exited'.
+0.00128205128205128,Order.20,Output@OrderSource,3.OnExited,[End],Process 'Output@OrderSource.OnExited' execution ended.
+0.00128205128205128,Order.21,Output@OrderSource,3.OnExited,[Begin],Process 'Output@OrderSource.OnExited' execution started.
+0.00128205128205128,Order.21,Output@OrderSource,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@OrderSource.Exited'.
+0.00128205128205128,Order.21,Output@OrderSource,3.OnExited,[End],Process 'Output@OrderSource.OnExited' execution ended.
+0.0166666666666667,Order.17,TimePath1,3.OnReachedEnd,[Begin],Process 'TimePath1.OnReachedEnd' execution started.
+0.0166666666666667,Order.17,TimePath1,3.OnReachedEnd,[Transfer] FromTimePath,Entity 'Order.17' transferring from '[EndOfLink] TimePath1' into node 'PickLocation'.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Decide] IfTransporter,Token sent to 'False' exit.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Execute] RoutingOutLogic,Executing process 'PickLocation.RoutingOutLogic'.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Begin],Process 'PickLocation.RoutingOutLogic' execution started.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[SetNode] NextDestination,Destination node of entity 'Order.17' set to value 'Input@Depot'.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Fire] RideWaitingEvent,Firing event 'PickLocation.RiderWaiting'.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Inserting entity 'Order.17' into 'PickLocation.RidePickupQueue'.
+0.0166666666666667,Order.17,MainCars[1],1.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.17,MainCars[1],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.17,MainCars[1],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.17,MainCars[1],1.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.17,MainCars[1],1.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.17' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.17,MainCars[2],1.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.17,MainCars[2],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.17,MainCars[2],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.17,MainCars[2],1.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.17,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.17,MainCars[2],1.OnEvaluatingRiderReservation,[End],Process 'MainCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.17' to ride transporter 'MainCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.17,BackupCars[1],1.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.17,BackupCars[1],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.17,BackupCars[1],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.17,BackupCars[1],1.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.17,BackupCars[1],1.OnEvaluatingRiderReservation,[End],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.17' to ride transporter 'BackupCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.17,BackupCars[2],1.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.17,BackupCars[2],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.17,BackupCars[2],1.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.17,BackupCars[2],1.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.17,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.17,BackupCars[2],1.OnEvaluatingRiderReservation,[End],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.17' to ride transporter 'BackupCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.17,PickLocation,4.RoutingOutLogic,[Ride] OnTransporter,Entity 'Order.17' unable to immediately reserve ride on a transporter. Inserting ride request into 'Model.Global.VisitRequestQueue'.
+0.0166666666666667,Order.17,PickLocation,0.OnEntered,[Execute] RoutingOutLogic,Token waiting at Execute step for '1' other processes to complete.
+0.0166666666666667,Order.18,TimePath1,1.OnReachedEnd,[Begin],Process 'TimePath1.OnReachedEnd' execution started.
+0.0166666666666667,Order.18,TimePath1,1.OnReachedEnd,[Transfer] FromTimePath,Entity 'Order.18' transferring from '[EndOfLink] TimePath1' into node 'PickLocation'.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Decide] IfTransporter,Token sent to 'False' exit.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Execute] RoutingOutLogic,Executing process 'PickLocation.RoutingOutLogic'.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Begin],Process 'PickLocation.RoutingOutLogic' execution started.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[SetNode] NextDestination,Destination node of entity 'Order.18' set to value 'Input@Depot'.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Fire] RideWaitingEvent,Firing event 'PickLocation.RiderWaiting'.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Inserting entity 'Order.18' into 'PickLocation.RidePickupQueue'.
+0.0166666666666667,Order.18,MainCars[1],7.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.18,MainCars[1],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.18,MainCars[1],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.18,MainCars[1],7.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.18,MainCars[1],7.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.18' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.18,MainCars[2],7.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.18,MainCars[2],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.18,MainCars[2],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.18,MainCars[2],7.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.18,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.18,MainCars[2],7.OnEvaluatingRiderReservation,[End],Process 'MainCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.18' to ride transporter 'MainCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.18,BackupCars[1],7.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.18,BackupCars[1],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.18,BackupCars[1],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.18,BackupCars[1],7.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.18,BackupCars[1],7.OnEvaluatingRiderReservation,[End],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.18' to ride transporter 'BackupCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.18,BackupCars[2],7.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.18,BackupCars[2],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.18,BackupCars[2],7.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.18,BackupCars[2],7.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.18,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.18,BackupCars[2],7.OnEvaluatingRiderReservation,[End],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.18' to ride transporter 'BackupCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.18,PickLocation,6.RoutingOutLogic,[Ride] OnTransporter,Entity 'Order.18' unable to immediately reserve ride on a transporter. Inserting ride request into 'Model.Global.VisitRequestQueue'.
+0.0166666666666667,Order.18,PickLocation,2.OnEntered,[Execute] RoutingOutLogic,Token waiting at Execute step for '1' other processes to complete.
+0.0166666666666667,Order.19,TimePath1,7.OnReachedEnd,[Begin],Process 'TimePath1.OnReachedEnd' execution started.
+0.0166666666666667,Order.19,TimePath1,7.OnReachedEnd,[Transfer] FromTimePath,Entity 'Order.19' transferring from '[EndOfLink] TimePath1' into node 'PickLocation'.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Decide] IfTransporter,Token sent to 'False' exit.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Execute] RoutingOutLogic,Executing process 'PickLocation.RoutingOutLogic'.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Begin],Process 'PickLocation.RoutingOutLogic' execution started.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[SetNode] NextDestination,Destination node of entity 'Order.19' set to value 'Input@Depot'.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Fire] RideWaitingEvent,Firing event 'PickLocation.RiderWaiting'.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Inserting entity 'Order.19' into 'PickLocation.RidePickupQueue'.
+0.0166666666666667,Order.19,MainCars[1],10.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.19,MainCars[1],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.19,MainCars[1],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.19,MainCars[1],10.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.19,MainCars[1],10.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.19' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.19,MainCars[2],10.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.19,MainCars[2],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.19,MainCars[2],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.19,MainCars[2],10.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.19,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.19,MainCars[2],10.OnEvaluatingRiderReservation,[End],Process 'MainCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.19' to ride transporter 'MainCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.19,BackupCars[1],10.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.19,BackupCars[1],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.19,BackupCars[1],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.19,BackupCars[1],10.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.19,BackupCars[1],10.OnEvaluatingRiderReservation,[End],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.19' to ride transporter 'BackupCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.19,BackupCars[2],10.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.19,BackupCars[2],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.19,BackupCars[2],10.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.19,BackupCars[2],10.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.19,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.19,BackupCars[2],10.OnEvaluatingRiderReservation,[End],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.19' to ride transporter 'BackupCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.19,PickLocation,9.RoutingOutLogic,[Ride] OnTransporter,Entity 'Order.19' unable to immediately reserve ride on a transporter. Inserting ride request into 'Model.Global.VisitRequestQueue'.
+0.0166666666666667,Order.19,PickLocation,8.OnEntered,[Execute] RoutingOutLogic,Token waiting at Execute step for '1' other processes to complete.
+0.0166666666666667,Order.20,TimePath1,10.OnReachedEnd,[Begin],Process 'TimePath1.OnReachedEnd' execution started.
+0.0166666666666667,Order.20,TimePath1,10.OnReachedEnd,[Transfer] FromTimePath,Entity 'Order.20' transferring from '[EndOfLink] TimePath1' into node 'PickLocation'.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Decide] IfTransporter,Token sent to 'False' exit.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Execute] RoutingOutLogic,Executing process 'PickLocation.RoutingOutLogic'.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Begin],Process 'PickLocation.RoutingOutLogic' execution started.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[SetNode] NextDestination,Destination node of entity 'Order.20' set to value 'Input@Depot'.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Fire] RideWaitingEvent,Firing event 'PickLocation.RiderWaiting'.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Inserting entity 'Order.20' into 'PickLocation.RidePickupQueue'.
+0.0166666666666667,Order.20,MainCars[1],13.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.20,MainCars[1],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.20,MainCars[1],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.20,MainCars[1],13.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.20,MainCars[1],13.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.20' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.20,MainCars[2],13.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.20,MainCars[2],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.20,MainCars[2],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.20,MainCars[2],13.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.20,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.20,MainCars[2],13.OnEvaluatingRiderReservation,[End],Process 'MainCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.20' to ride transporter 'MainCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.20,BackupCars[1],13.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.20,BackupCars[1],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.20,BackupCars[1],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.20,BackupCars[1],13.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.20,BackupCars[1],13.OnEvaluatingRiderReservation,[End],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.20' to ride transporter 'BackupCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.20,BackupCars[2],13.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.20,BackupCars[2],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.20,BackupCars[2],13.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.20,BackupCars[2],13.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.20,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.20,BackupCars[2],13.OnEvaluatingRiderReservation,[End],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.20' to ride transporter 'BackupCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.20,PickLocation,12.RoutingOutLogic,[Ride] OnTransporter,Entity 'Order.20' unable to immediately reserve ride on a transporter. Inserting ride request into 'Model.Global.VisitRequestQueue'.
+0.0166666666666667,Order.20,PickLocation,11.OnEntered,[Execute] RoutingOutLogic,Token waiting at Execute step for '1' other processes to complete.
+0.0166666666666667,Order.21,TimePath1,13.OnReachedEnd,[Begin],Process 'TimePath1.OnReachedEnd' execution started.
+0.0166666666666667,Order.21,TimePath1,13.OnReachedEnd,[Transfer] FromTimePath,Entity 'Order.21' transferring from '[EndOfLink] TimePath1' into node 'PickLocation'.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Decide] IfTransporter,Token sent to 'False' exit.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Execute] RoutingOutLogic,Executing process 'PickLocation.RoutingOutLogic'.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Begin],Process 'PickLocation.RoutingOutLogic' execution started.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[SetNode] NextDestination,Destination node of entity 'Order.21' set to value 'Input@Depot'.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Fire] RideWaitingEvent,Firing event 'PickLocation.RiderWaiting'.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Inserting entity 'Order.21' into 'PickLocation.RidePickupQueue'.
+0.0166666666666667,Order.21,MainCars[1],16.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.21,MainCars[1],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.21,MainCars[1],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.21,MainCars[1],16.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.21,MainCars[1],16.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.21' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.21,MainCars[2],16.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.21,MainCars[2],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.21,MainCars[2],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.21,MainCars[2],16.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.21,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.21,MainCars[2],16.OnEvaluatingRiderReservation,[End],Process 'MainCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.21' to ride transporter 'MainCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.21,BackupCars[1],16.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.21,BackupCars[1],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.21,BackupCars[1],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.21,BackupCars[1],16.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.21,BackupCars[1],16.OnEvaluatingRiderReservation,[End],Process 'BackupCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.21' to ride transporter 'BackupCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.21,BackupCars[2],16.OnEvaluatingRiderReservation,[Begin],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution started.
+0.0166666666666667,Order.21,BackupCars[2],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0166666666666667,Order.21,BackupCars[2],16.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'BackupCars'. Previous value was '""MainCars""'."
+0.0166666666666667,Order.21,BackupCars[2],16.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'BackupCarEvaluatingTask'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Begin],Process 'BackupCarEvaluatingTask' execution started.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'False' exit.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[Assign] RejectRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '0'. Previous value was '1'.
+0.0166666666666667,Order.21,Model,5.BackupCarEvaluatingTask,[End],Process 'BackupCarEvaluatingTask' execution ended.
+0.0166666666666667,Order.21,BackupCars[2],16.OnEvaluatingRiderReservation,[End],Process 'BackupCars[2].OnEvaluatingRiderReservation' execution ended.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Ineligible request by 'Order.21' to ride transporter 'BackupCars[2]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0166666666666667,Order.21,PickLocation,15.RoutingOutLogic,[Ride] OnTransporter,Entity 'Order.21' unable to immediately reserve ride on a transporter. Inserting ride request into 'Model.Global.VisitRequestQueue'.
+0.0166666666666667,Order.21,PickLocation,14.OnEntered,[Execute] RoutingOutLogic,Token waiting at Execute step for '1' other processes to complete.
+0.0266388888888894,Model,Model,16.StartSystem1,[Begin],Process 'StartSystem1' execution started.
+0.0266388888888894,Model,Model,16.StartSystem1,[Assign] AssignStartMark,Assigning state variable 'Model.Start' the value '1'. Previous value was '0'.
+0.0266388888888894,Model,Model,16.StartSystem1,[End],Process 'StartSystem1' execution ended.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Begin],Process 'RetreiveTransportRequestForMainCar' execution started.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Delay] Epsilon,Delaying token for 'Epsilon' Hours until time '0.0266388888888894' Hours. Scheduling end of delay as a late priority event on current events calendar.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Decide] WorkStart?,Token branching on condition 'Start == True'.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Decide] WorkStart?,Token sent to 'True' exit.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Searching collection '[EntityPopulation] MainCars' containing '2' item(s). 
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Searching collection in the forward direction for maximum of '2147483647' item(s) and summing the expression '0.0'.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Index range of search is from starting index '1' to ending index '2'.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Item 'MainCars[1]' found at index '1' in the collection.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Item 'MainCars[2]' found at index '2' in the collection.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,'2' item(s) found by search.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Saving search expression sum to state variable 'Token.17.ReturnValue'.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Assigning state variable 'Token.17.ReturnValue' the value '0'. Previous value was '1'.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Created token 'Token.16' associated with item 'MainCars[1]' found at index '1' in the collection.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Decide] IfGlobalRideRequest,Token branching on condition 'Global.VisitRequestQueue.NumberWaiting>0'.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Decide] IfGlobalRideRequest,Token sent to 'True' exit.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,"Searching for index result that satisfies the condition 'Global.VisitRequestQueue.ItemAtIndex(MainCarRequestIndex).ModelEntity.RiderType == ""MainCars""'."
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Using index variable 'Model.MainCarRequestIndex' with index range from starting index '1' to ending index '5'.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Index result found that satisfied search condition.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Saving index found. Assigning index variable 'Model.MainCarRequestIndex' the value '1'.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Token sent to 'Found' exit.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Entity 'MainCars[1]' searching 'Model.Global.VisitRequestQueue' which contains '5' request(s).
+0.0266388888888894,Order.17,MainCars[1],18.OnEvaluatingRiderReservation,[Begin],Process 'MainCars[1].OnEvaluatingRiderReservation' execution started.
+0.0266388888888894,Order.17,MainCars[1],18.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token branching on condition '(ResourceState==List.ResourceStateName.Idle) || (Entity.CurrentNode==DestinationNode) || (Entity.CurrentNode==CurrentNode && DestinationNode==Nothing)'.
+0.0266388888888894,Order.17,MainCars[1],18.OnEvaluatingRiderReservation,[Decide] IfAcceptTransportRequest,Token sent to 'True' exit.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0266388888888894,Order.17,MainCars[1],18.OnEvaluatingRiderReservation,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'True' exit.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectVehcile?,Token branching on condition '(Orders.RiderType == EvaluatingTaskToken.RiderType)&&(Orders.RiderIndex == MainCar.Index)'.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectVehcile?,Token sent to 'True' exit.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectModelEntity?,Token branching on condition 'Orders.Priorty == MainCar.CurrentTaskIndex'.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectModelEntity?,Token sent to 'True' exit.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[Assign] AcceptRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '1'. Previous value was '1'.
+0.0266388888888894,Order.17,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0266388888888894,Order.17,MainCars[1],18.OnEvaluatingRiderReservation,[End],Process 'MainCars[1].OnEvaluatingRiderReservation' execution ended.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Entity 'Order.17' reserved a ride on transporter 'MainCars[1]'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Begin],Process 'MainCars[1].OnRiderReservationAccepted' execution started.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfIdle,Token branching on condition 'ResourceState==List.ResourceStateName.Idle'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfIdle,Token sent to 'True' exit.
+0.0266388888888894,--,--,--,--,Ignoring attempt to execute disabled process 'MainCars[1].OnNewSeizeRequest'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Seize] Vehicle,Object 'MainCars[1]' checking availability to seize '1' resource(s) of resource type '[ParentObject] MainCars[1]'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Seize] Vehicle,Object 'MainCars[1]' found '1' currently available resource(s) of resource type '[ParentObject] MainCars[1]'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Seize] Vehicle,Object 'MainCars[1]' seized '1' capacity unit(s) of resource 'MainCars[1]'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Begin],Process 'MainCars[1].OnCapacityAllocated' execution started.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] ResourceState,Assigning state variable 'MainCars[1].ResourceState' the value '7'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.Enabled' the value '0'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.ReturnValue' the value '0'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingSeizeRequest.Enabled' the value '0'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingSeizeRequest.ReturnValue' the value '0'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[Fire] AllocatedEvent,Firing event 'MainCars[1].Allocated'.
+0.0266388888888894,MainCars[1],MainCars[1],19.OnCapacityAllocated,[End],Process 'MainCars[1].OnCapacityAllocated' execution ended.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Seize] Vehicle,Object 'MainCars[1]' completed seize of '1' resource(s) of resource type '[ParentObject] MainCars[1]'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[SelectVisit] ToAcceptedDestination,Entity 'MainCars[1]' searching its visit request queue containing '1' accepted visit request(s).
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[SelectVisit] ToAcceptedDestination,Entity 'MainCars[1]' selected visit destination 'PickLocation'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfInFreeSpace,Token branching on condition '(CurrentNode==Nothing)&&(CurrentLink==Nothing)&&(CurrentStation==Nothing)'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfInFreeSpace,Token sent to 'False' exit.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfUnpark,Token branching on condition 'IsParked && (OnVisitingNode.TokensInProcess==0)'.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[Decide] IfUnpark,Token sent to 'True' exit.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[UnPark] Vehicle,Entity 'MainCars[1]' transferring from '[Station] Home.ParkingStation' into node 'Home'.
+0.0266388888888894,MainCars[1],Home,19.OnEntered,[Begin],Process 'Home.OnEntered' execution started.
+0.0266388888888894,MainCars[1],Home,19.OnEntered,[Fire] EnteredEvent,Firing event 'Home.Entered'.
+0.0266388888888894,MainCars[1],Home,19.OnEntered,[VisitNode] Entity,Executing process 'MainCars[1].OnVisitingNode'.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Begin],Process 'MainCars[1].OnVisitingNode' execution started.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Decide] IfNotVisitingNode,"Token branching on condition 'Math.If(IgnoreVisitingCurrentNode, True, ResourceState==List.ResourceStateName.Idle, False, ResourceState==List.ResourceStateName.OffShift, ((OffShiftAction==List.VehicleOffShiftAction.GoToHome)||(OffShiftAction==List.VehicleOffShiftAction.ParkAtHome))&&(HomeNode!=Nothing)&&(DestinationNode==HomeNode)&&(CurrentNode!=HomeNode),(DestinationNode!=Nothing)&&(CurrentNode!=DestinationNode), True, False)'."
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Decide] IfNotVisitingNode,Token sent to 'True' exit.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Decide] IfParked,Token branching on condition 'IsParked'.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Decide] IfParked,Token sent to 'False' exit.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[Assign] IgnoreVisitingCurrentNodeFlag,Assigning state variable 'MainCars[1].IgnoreVisitingCurrentNode' the value '0'. Previous value was '0'.
+0.0266388888888894,MainCars[1],MainCars[1],20.OnVisitingNode,[End],Process 'MainCars[1].OnVisitingNode' execution ended.
+0.0266388888888894,MainCars[1],Home,19.OnEntered,[Transfer] ToOutboundLink,Entity 'MainCars[1]' transferring from '[Node] Home' onto link 'Path3'.
+0.0266388888888894,MainCars[1],Path3,20.OnEntered,[Begin],Process 'Path3.OnEntered' execution started.
+0.0266388888888894,MainCars[1],Path3,20.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'MainCars[1].Movement.Rate' the value '1080' Meters per Hour. Previous value was '1080' Meters per Hour.
+0.0266388888888894,MainCars[1],Path3,20.OnEntered,[EndTransfer] OntoPath,Entity 'MainCars[1]' ending transfer onto link 'Path3'.
+0.0266388888888894,MainCars[1],Path3,20.OnEntered,[End],Process 'Path3.OnEntered' execution ended.
+0.0266388888888894,MainCars[1],Model,16.RetreiveTransportRequestForMainCar,[End],Process 'RetreiveTransportRequestForMainCar' execution ended.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[Search] AvaiableVehicles,Created token 'Token.16' associated with item 'MainCars[2]' found at index '2' in the collection.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Decide] IfGlobalRideRequest,Token branching on condition 'Global.VisitRequestQueue.NumberWaiting>0'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Decide] IfGlobalRideRequest,Token sent to 'True' exit.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,"Searching for index result that satisfies the condition 'Global.VisitRequestQueue.ItemAtIndex(MainCarRequestIndex).ModelEntity.RiderType == ""MainCars""'."
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Using index variable 'Model.MainCarRequestIndex' with index range from starting index '1' to ending index '4'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Index result found that satisfied search condition.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Saving index found. Assigning index variable 'Model.MainCarRequestIndex' the value '1'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[Find] FindRequest,Token sent to 'Found' exit.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Entity 'MainCars[1]' searching 'Model.Global.VisitRequestQueue' which contains '4' request(s).
+0.0266388888888894,--,--,--,--,Ignoring attempt to execute disabled process 'MainCars[1].OnEvaluatingRiderReservation'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Ineligible request by 'Order.18' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0266388888888894,--,--,--,--,Ignoring attempt to execute disabled process 'MainCars[1].OnEvaluatingRiderReservation'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Ineligible request by 'Order.19' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0266388888888894,--,--,--,--,Ignoring attempt to execute disabled process 'MainCars[1].OnEvaluatingRiderReservation'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Ineligible request by 'Order.20' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0266388888888894,--,--,--,--,Ignoring attempt to execute disabled process 'MainCars[1].OnEvaluatingRiderReservation'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Ineligible request by 'Order.21' to ride transporter 'MainCars[1]'. The 'OnEvaluatingRiderReservation' decision process of the transporter returned 'False'.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[PlanVisit] PlanVisit1,Entity 'MainCars[1]' failed to find and plan an eligible visit request.
+0.0266388888888894,MainCars[2],Model,16.RetreiveTransportRequestForMainCar,[End],Process 'RetreiveTransportRequestForMainCar' execution ended.
+0.0266388888888894,Model,Model,17.RetreiveTransportRequestForMainCar,[End],Process 'RetreiveTransportRequestForMainCar' execution ended.
+0.0266388888888894,Order.17,MainCars[1],18.OnRiderReservationAccepted,[End],Process 'MainCars[1].OnRiderReservationAccepted' execution ended.
+0.0266388888888894,MainCars[1],Home,19.OnEntered,[End],Process 'Home.OnEntered' execution ended.
+0.0284907408502145,MainCars[1],Home,19.OnExited,[Begin],Process 'Home.OnExited' execution started.
+0.0284907408502145,MainCars[1],Home,19.OnExited,[Fire] ExitedEvent,Firing event 'Home.Exited'.
+0.0284907408502145,MainCars[1],Home,19.OnExited,[End],Process 'Home.OnExited' execution ended.
+0.0284907408502145,MainCars[1],Path3,19.OnTrailingEdgeEntered,[Begin],Process 'Path3.OnTrailingEdgeEntered' execution started.
+0.0284907408502145,MainCars[1],Path3,19.OnTrailingEdgeEntered,[End],Process 'Path3.OnTrailingEdgeEntered' execution ended.
+0.0311296296296302,MainCars[1],Path3,19.OnReachedEnd,[Begin],Process 'Path3.OnReachedEnd' execution started.
+0.0311296296296302,MainCars[1],Path3,19.OnReachedEnd,[Transfer] FromPath,Entity 'MainCars[1]' transferring from '[EndOfLink] Path3' into node 'PickLocation'.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[Begin],Process 'PickLocation.OnEntered' execution started.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[Fire] EnteredEvent,Firing event 'PickLocation.Entered'.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[VisitNode] Entity,Executing process 'MainCars[1].OnVisitingNode'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Begin],Process 'MainCars[1].OnVisitingNode' execution started.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfNotVisitingNode,"Token branching on condition 'Math.If(IgnoreVisitingCurrentNode, True, ResourceState==List.ResourceStateName.Idle, False, ResourceState==List.ResourceStateName.OffShift, ((OffShiftAction==List.VehicleOffShiftAction.GoToHome)||(OffShiftAction==List.VehicleOffShiftAction.ParkAtHome))&&(HomeNode!=Nothing)&&(DestinationNode==HomeNode)&&(CurrentNode!=HomeNode),(DestinationNode!=Nothing)&&(CurrentNode!=DestinationNode), True, False)'."
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfNotVisitingNode,Token sent to 'False' exit.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfBusy,Token branching on condition '(ResourceState==List.ResourceStateName.Busy)||(ResourceState==List.ResourceStateName.OffShiftBusy)'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfBusy,Token sent to 'False' exit.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfLoadingUnloading,"Token branching on condition 'Math.If(ResourceState==List.ResourceStateName.OffShift, False, (ResourceState==List.ResourceStateName.Transporting)||(ResourceState==List.ResourceStateName.OffShiftTransporting), True, Node.RidePickupQueue.NumberWaiting>0)'."
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfLoadingUnloading,Token sent to 'True' exit.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Dropoff] Rider,Transporter 'MainCars[1]' failed to drop off a rider at node 'PickLocation'. No eligible drop-off requests.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Assign] ToClearPreferredOwner,Assigning state variable 'MainCars[1].PreferredOwner' the value 'Nothing'. Previous value was 'Nothing'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Assign] ToClearPreferredOwner,Assigning state variable 'MainCars[1].OnNewSeizeRequest.Enabled' the value '0'. Previous value was '0'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Pickup] Rider,Transporter 'MainCars[1]' searching '5' pickup request(s) waiting at node 'PickLocation'.
+0.0311296296296302,Order.17,MainCars[1],16.OnEvaluatingRiderAtPickup,[Begin],Process 'MainCars[1].OnEvaluatingRiderAtPickup' execution started.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask, ,"Assigning state variable 'EvaluatingTaskToken.5.RiderType' the value 'MainCars'. Previous value was '""MainCars""'."
+0.0311296296296302,Order.17,MainCars[1],16.OnEvaluatingRiderAtPickup,[Execute] EvaluatingTransportRequestAddOnProcess,Executing process 'MainCarEvaluatingTask'.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Begin],Process 'MainCarEvaluatingTask' execution started.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token branching on condition 'Start ==True'.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] StartSystem?,Token sent to 'True' exit.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectVehcile?,Token branching on condition '(Orders.RiderType == EvaluatingTaskToken.RiderType)&&(Orders.RiderIndex == MainCar.Index)'.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectVehcile?,Token sent to 'True' exit.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectModelEntity?,Token branching on condition 'Orders.Priorty == MainCar.CurrentTaskIndex'.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Decide] CorrectModelEntity?,Token sent to 'True' exit.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[Assign] AcceptRequest,Assigning state variable 'EvaluatingTaskToken.5.ReturnValue' the value '1'. Previous value was '1'.
+0.0311296296296302,Order.17,Model,5.MainCarEvaluatingTask,[End],Process 'MainCarEvaluatingTask' execution ended.
+0.0311296296296302,Order.17,MainCars[1],16.OnEvaluatingRiderAtPickup,[End],Process 'MainCars[1].OnEvaluatingRiderAtPickup' execution ended.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Pickup] Rider,Transporter 'MainCars[1]' picking up rider 'Order.17' at node 'PickLocation'. 
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoading,[Begin],Process 'MainCars[1].OnRiderLoading' execution started.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoading,[Assign] OnRiderLoadingAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.Enabled' the value '0'. Previous value was '0'.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoading,[Assign] OnRiderLoadingAssignments,Assigning state variable 'MainCars[1].OnEvaluatingRiderReservation.ReturnValue' the value '0'. Previous value was '0'.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoading,[End],Process 'MainCars[1].OnRiderLoading' execution ended.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Pickup] Rider,Entity 'Order.17' transferring from '[Node] PickLocation' into station 'MainCars[1].RideStation'.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoaded,[Begin],Process 'MainCars[1].OnRiderLoaded' execution started.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoaded,[EndTransfer] OntoVehicle,Entity 'Order.17' ending transfer into station 'MainCars[1].RideStation'.
+0.0311296296296302,Order.17,TimePath1,20.OnExited,[Begin],Process 'TimePath1.OnExited' execution started.
+0.0311296296296302,Order.17,TimePath1,20.OnExited,[End],Process 'TimePath1.OnExited' execution ended.
+0.0311296296296302,Order.17,PickLocation,20.OnExited,[Begin],Process 'PickLocation.OnExited' execution started.
+0.0311296296296302,Order.17,PickLocation,20.OnExited,[Fire] ExitedEvent,Firing event 'PickLocation.Exited'.
+0.0311296296296302,Order.17,PickLocation,20.OnExited,[End],Process 'PickLocation.OnExited' execution ended.
+0.0311296296296302,Order.17,MainCars[1],16.OnRiderLoaded,[End],Process 'MainCars[1].OnRiderLoaded' execution ended.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[VisitNode] Entity,Token waiting at VisitNode step for '1' other processes to complete.
+0.0311296296296302,Order.17,TimePath1,3.OnReachedEnd,[End],Process 'TimePath1.OnReachedEnd' execution ended.
+0.0311296296296302,Order.17,PickLocation,4.RoutingOutLogic,[Decide] IfReservingCurrentTransporter,Token branching on condition ''.
+0.0311296296296302,Order.17,PickLocation,4.RoutingOutLogic,[Decide] IfReservingCurrentTransporter,Token sent to 'False' exit.
+0.0311296296296302,Order.17,PickLocation,4.RoutingOutLogic,[End],Process 'PickLocation.RoutingOutLogic' execution ended.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Pickup] Rider,Transporter 'MainCars[1]' failed to pick up a rider at node 'PickLocation'. The transporter is already loaded to its ride capacity.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[SelectDropoff] NextTransportDropoff,Transporter 'MainCars[1]' searching its ride station containing '1' rider(s).
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[SelectDropoff] NextTransportDropoff,Transporter 'MainCars[1]' selected drop-off destination 'Input@Depot' requested by rider 'Order.17'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfParked,Token branching on condition 'IsParked'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Decide] IfParked,Token sent to 'False' exit.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[Assign] IgnoreVisitingCurrentNodeFlag,Assigning state variable 'MainCars[1].IgnoreVisitingCurrentNode' the value '0'. Previous value was '0'.
+0.0311296296296302,MainCars[1],MainCars[1],17.OnVisitingNode,[End],Process 'MainCars[1].OnVisitingNode' execution ended.
+0.0311296296296302,Order.17,PickLocation,0.OnEntered,[End],Process 'PickLocation.OnEntered' execution ended.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[Decide] IfTransporter,Token branching on condition 'Entity.Is.Transporter'.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[Decide] IfTransporter,Token sent to 'True' exit.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[Transfer] ToOutboundLink,Entity 'MainCars[1]' transferring from '[Node] PickLocation' onto link 'Path1'.
+0.0311296296296302,MainCars[1],Path1,0.OnEntered,[Begin],Process 'Path1.OnEntered' execution started.
+0.0311296296296302,MainCars[1],Path1,0.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'MainCars[1].Movement.Rate' the value '1080' Meters per Hour. Previous value was '1080' Meters per Hour.
+0.0311296296296302,MainCars[1],Path1,0.OnEntered,[EndTransfer] OntoPath,Entity 'MainCars[1]' ending transfer onto link 'Path1'.
+0.0311296296296302,MainCars[1],Path1,0.OnEntered,[End],Process 'Path1.OnEntered' execution ended.
+0.0311296296296302,MainCars[1],Path3,19.OnReachedEnd,[End],Process 'Path3.OnReachedEnd' execution ended.
+0.0311296296296302,MainCars[1],PickLocation,18.OnEntered,[End],Process 'PickLocation.OnEntered' execution ended.
+0.0329814815909553,MainCars[1],Path3,18.OnExited,[Begin],Process 'Path3.OnExited' execution started.
+0.0329814815909553,MainCars[1],Path3,18.OnExited,[End],Process 'Path3.OnExited' execution ended.
+0.0329814815909553,MainCars[1],PickLocation,18.OnExited,[Begin],Process 'PickLocation.OnExited' execution started.
+0.0329814815909553,MainCars[1],PickLocation,18.OnExited,[Fire] ExitedEvent,Firing event 'PickLocation.Exited'.
+0.0329814815909553,MainCars[1],PickLocation,18.OnExited,[End],Process 'PickLocation.OnExited' execution ended.
+0.0329814815909553,MainCars[1],Path1,18.OnTrailingEdgeEntered,[Begin],Process 'Path1.OnTrailingEdgeEntered' execution started.
+0.0329814815909553,MainCars[1],Path1,18.OnTrailingEdgeEntered,[End],Process 'Path1.OnTrailingEdgeEntered' execution ended.
+0.0345555555555565,Output@OrderSource,Output@OrderSource,18.OnRunEnding,[Begin],Process 'Output@OrderSource.OnRunEnding' execution started.
+0.0345555555555565,Output@OrderSource,Output@OrderSource,18.OnRunEnding,[End],Process 'Output@OrderSource.OnRunEnding' execution ended.
+0.0345555555555565,Input@Depot,Input@Depot,18.OnRunEnding,[Begin],Process 'Input@Depot.OnRunEnding' execution started.
+0.0345555555555565,Input@Depot,Input@Depot,18.OnRunEnding,[End],Process 'Input@Depot.OnRunEnding' execution ended.
+0.0345555555555565,PickLocation,PickLocation,18.OnRunEnding,[Begin],Process 'PickLocation.OnRunEnding' execution started.
+0.0345555555555565,PickLocation,PickLocation,18.OnRunEnding,[End],Process 'PickLocation.OnRunEnding' execution ended.
+0.0345555555555565,Home,Home,18.OnRunEnding,[Begin],Process 'Home.OnRunEnding' execution started.
+0.0345555555555565,Home,Home,18.OnRunEnding,[End],Process 'Home.OnRunEnding' execution ended.
+0.0345555555555565,OrderSource,OrderSource,18.OnRunEnding,[Begin],Process 'OrderSource.OnRunEnding' execution started.
+0.0345555555555565,OrderSource,OrderSource,18.OnRunEnding,[End],Process 'OrderSource.OnRunEnding' execution ended.
+0.0345555555555565,Depot,Depot,18.OnRunEnding,[Begin],Process 'Depot.OnRunEnding' execution started.
+0.0345555555555565,Depot,Depot,18.OnRunEnding,[End],Process 'Depot.OnRunEnding' execution ended.
+0.0345555555555565,Path1,Path1,18.OnRunEnding,[Begin],Process 'Path1.OnRunEnding' execution started.
+0.0345555555555565,Path1,Path1,18.OnRunEnding,[End],Process 'Path1.OnRunEnding' execution ended.
+0.0345555555555565,MainCars[1],MainCars[1],18.OnRunEnding,[Begin],Process 'MainCars[1].OnRunEnding' execution started.
+0.0345555555555565,MainCars[1],MainCars[1],18.OnRunEnding,[End],Process 'MainCars[1].OnRunEnding' execution ended.
+0.0345555555555565,MainCars[2],MainCars[2],18.OnRunEnding,[Begin],Process 'MainCars[2].OnRunEnding' execution started.
+0.0345555555555565,MainCars[2],MainCars[2],18.OnRunEnding,[End],Process 'MainCars[2].OnRunEnding' execution ended.
+0.0345555555555565,BackupCars[1],BackupCars[1],18.OnRunEnding,[Begin],Process 'BackupCars[1].OnRunEnding' execution started.
+0.0345555555555565,BackupCars[1],BackupCars[1],18.OnRunEnding,[End],Process 'BackupCars[1].OnRunEnding' execution ended.
+0.0345555555555565,BackupCars[2],BackupCars[2],18.OnRunEnding,[Begin],Process 'BackupCars[2].OnRunEnding' execution started.
+0.0345555555555565,BackupCars[2],BackupCars[2],18.OnRunEnding,[End],Process 'BackupCars[2].OnRunEnding' execution ended.
+0.0345555555555565,Path3,Path3,18.OnRunEnding,[Begin],Process 'Path3.OnRunEnding' execution started.
+0.0345555555555565,Path3,Path3,18.OnRunEnding,[End],Process 'Path3.OnRunEnding' execution ended.
+0.0345555555555565,TimePath1,TimePath1,18.OnRunEnding,[Begin],Process 'TimePath1.OnRunEnding' execution started.
+0.0345555555555565,TimePath1,TimePath1,18.OnRunEnding,[End],Process 'TimePath1.OnRunEnding' execution ended.
+
