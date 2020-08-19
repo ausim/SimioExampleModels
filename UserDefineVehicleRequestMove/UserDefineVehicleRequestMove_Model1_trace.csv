@@ -1,0 +1,99 @@
+Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
+0,--,--,--,--,System initialization completed.
+0,--,--,--,--,Time until next event of timer 'Source1.EntityArrivals' is '10' Hours.
+0,--,--,--,--,Created object 'MyVehicle1[1]'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Begin],Process 'MyVehicle1[1].OnCreated' execution started.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[Assign] OnCreatedAssignments,Assigning state variable 'MyVehicle1[1].HomeNode' the value 'Output@Source1'. Previous value was 'Nothing'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnCreated,[End],Process 'MyVehicle1[1].OnCreated' execution ended.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[Begin],Process 'MyVehicle1[1].OnRunInitialized' execution started.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[Park] AtInitialNode,Entity 'MyVehicle1[1]' transferring from '[FreeSpace] Model1' into station 'Output@Source1.ParkingStation'.
+0,MyVehicle1[1],Output@Source1,1.OnEnteredParking,[Begin],Process 'Output@Source1.OnEnteredParking' execution started.
+0,MyVehicle1[1],Output@Source1,1.OnEnteredParking,[EndTransfer] EndTransfer,Entity 'MyVehicle1[1]' ending transfer into station 'Output@Source1.ParkingStation'.
+0,MyVehicle1[1],Output@Source1,1.OnEnteredParking,[End],Process 'Output@Source1.OnEnteredParking' execution ended.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[Decide] IfOnShift,Token branching on condition 'ResourceState!=List.ResourceStateName.OffShift'.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[Decide] IfOnShift,Token sent to 'True' exit.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MyVehicle1[1]' searching 'Model1.Global.VisitRequestQueue' which contains '0' request(s).
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MyVehicle1[1]' failed to find and plan an eligible visit request.
+0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[End],Process 'MyVehicle1[1].OnRunInitialized' execution ended.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],0.Process1,[Begin],Process 'MyVehicle1[1].Process1' execution started.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],0.Process1,[Execute] Execute1,Executing process 'Process1'.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Begin],Process 'Process1' execution started.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,Searching collection '[TableRows] Orders' containing '8' item(s). 
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,Searching collection in the forward direction for maximum of '1' item(s).
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,Index range of search is from starting index '1' to ending index '8'.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,Item 'Orders[7]' found at index '7' in the collection.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,'1' item(s) found by search.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[Search] Search1,Created token 'Token.3' associated with item 'Orders[7]' found at index '7' in the collection.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Execute] Execute1,Scheduling execution of process 'Process2' as an early priority event on current events calendar.
+0.00877777777777774,--,--,--,--,Ignoring attempt to execute disabled process 'MyVehicle1[1].OnNewSeizeRequest'.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Object 'MyVehicle1[1]' checking availability to seize '1' resource(s) of resource type '[Specific] MyVehicle1'.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Object 'MyVehicle1[1]' found '1' currently available resource(s) of resource type '[Specific] MyVehicle1'.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Object 'MyVehicle1[1]' seized '1' capacity unit(s) of resource 'MyVehicle1[1]'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Begin],Process 'MyVehicle1[1].OnCapacityAllocated' execution started.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] ResourceState,Assigning state variable 'MyVehicle1[1].ResourceState' the value '7'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.Enabled' the value '0'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.ReturnValue' the value '0'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Assign] OnCapacityAllocatedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[Fire] AllocatedEvent,Firing event 'MyVehicle1[1].Allocated'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnCapacityAllocated,[End],Process 'MyVehicle1[1].OnCapacityAllocated' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Resource 'MyVehicle1[1]' accepting request from object 'MyVehicle1[1]' to move to destination node 'TransferNode7'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[Begin],Process 'MyVehicle1[1].OnMoveRequestAccepted' execution started.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[SelectVisit] ToAcceptedDestination,Entity 'MyVehicle1[1]' searching its visit request queue containing '1' accepted visit request(s).
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[SelectVisit] ToAcceptedDestination,Entity 'MyVehicle1[1]' selected visit destination 'TransferNode7'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[Decide] IfInFreeSpace,Token branching on condition '(CurrentNode==Nothing)&&(CurrentLink==Nothing)&&(CurrentStation==Nothing)'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[Decide] IfInFreeSpace,Token sent to 'False' exit.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[Decide] IfUnpark,Token branching on condition 'IsParked && (OnVisitingNode.TokensInProcess==0)'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[Decide] IfUnpark,Token sent to 'True' exit.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[UnPark] Vehicle,Entity 'MyVehicle1[1]' transferring from '[Station] Output@Source1.ParkingStation' into node 'Output@Source1'.
+0.00877777777777774,MyVehicle1[1],Output@Source1,6.OnEntered,[Begin],Process 'Output@Source1.OnEntered' execution started.
+0.00877777777777774,MyVehicle1[1],Output@Source1,6.OnEntered,[Fire] EnteredEvent,Firing event 'Output@Source1.Entered'.
+0.00877777777777774,MyVehicle1[1],Output@Source1,6.OnEntered,[VisitNode] Entity,Executing process 'MyVehicle1[1].OnVisitingNode'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Begin],Process 'MyVehicle1[1].OnVisitingNode' execution started.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Decide] IfNotVisitingNode,"Token branching on condition 'Math.If(IgnoreVisitingCurrentNode, True, ResourceState==List.ResourceStateName.Idle, False, ResourceState==List.ResourceStateName.OffShift, ((OffShiftAction==List.VehicleOffShiftAction.GoToHome)||(OffShiftAction==List.VehicleOffShiftAction.ParkAtHome))&&(HomeNode!=Nothing)&&(DestinationNode==HomeNode)&&(CurrentNode!=HomeNode),(DestinationNode!=Nothing)&&(CurrentNode!=DestinationNode), True, False)'."
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Decide] IfNotVisitingNode,Token sent to 'True' exit.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Decide] IfParked,Token branching on condition 'IsParked'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Decide] IfParked,Token sent to 'False' exit.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[Assign] IgnoreVisitingCurrentNodeFlag,Assigning state variable 'MyVehicle1[1].IgnoreVisitingCurrentNode' the value '0'. Previous value was '0'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],7.OnVisitingNode,[End],Process 'MyVehicle1[1].OnVisitingNode' execution ended.
+0.00877777777777774,MyVehicle1[1],Output@Source1,6.OnEntered,[Transfer] ToOutboundLink,Entity 'MyVehicle1[1]' transferring from '[Node] Output@Source1' onto link 'Path5'.
+0.00877777777777774,MyVehicle1[1],Path5,7.OnEntered,[Begin],Process 'Path5.OnEntered' execution started.
+0.00877777777777774,MyVehicle1[1],Path5,7.OnEntered,[Assign] EntityMovementRate,Assigning state variable 'MyVehicle1[1].Movement.Rate' the value '720' Meters per Hour. Previous value was '720' Meters per Hour.
+0.00877777777777774,MyVehicle1[1],Path5,7.OnEntered,[EndTransfer] OntoPath,Entity 'MyVehicle1[1]' ending transfer onto link 'Path5'.
+0.00877777777777774,MyVehicle1[1],Path5,7.OnEntered,[End],Process 'Path5.OnEntered' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Object 'MyVehicle1[1]' completed seize of '1' resource(s) of resource type '[Specific] MyVehicle1'.
+0.00877777777777774,MyVehicle1[1],Model1,1.Process1,[End],Process 'Process1' execution ended.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],0.Process1,[End],Process 'MyVehicle1[1].Process1' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,4.Process2,[Begin],Process 'Process2' execution started.
+0.00877777777777774,MyVehicle1[1],Model1,4.Process2,[Delay] Delay1,Delaying token for 'Epsilon' Hours until time '0.00877777777777774' Hours. Scheduling end of delay as a late priority event on current events calendar.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],5.OnMoveRequestAccepted,[End],Process 'MyVehicle1[1].OnMoveRequestAccepted' execution ended.
+0.00877777777777774,MyVehicle1[1],Output@Source1,6.OnEntered,[End],Process 'Output@Source1.OnEntered' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,4.Process2,[Release] Release1,Object 'MyVehicle1[1]' attempting to release '1' resource(s) of resource type '[Specific] MyVehicle1'.
+0.00877777777777774,MyVehicle1[1],Model1,4.Process2,[Release] Release1,Object 'MyVehicle1[1]' released '1' capacity unit(s) of resource 'MyVehicle1[1]'.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[Seize] Seize1,Object 'MyVehicle1[1]' cancelling request to resource 'MyVehicle1[1]' to move to destination node 'TransferNode7'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Begin],Process 'MyVehicle1[1].OnCapacityReleased' execution started.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] ResourceState,Assigning state variable 'MyVehicle1[1].ResourceState' the value '0'. Previous value was '0'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.Enabled' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderReservation.ReturnValue' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.Enabled' the value '1'. Previous value was '0'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingSeizeRequest.ReturnValue' the value '1'. Previous value was '0'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.Enabled' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Assign] OnCapacityReleasedAssignments,Assigning state variable 'MyVehicle1[1].OnEvaluatingRiderAtPickup.ReturnValue' the value '1'. Previous value was '1'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[SetNode] ToClearDestination,Destination node of entity 'MyVehicle1[1]' set to value 'No Destination'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Fire] RemainInPlaceEndedEvent,Firing event 'MyVehicle1[1].RemainInPlaceEnded'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[Fire] ReleasedEvent,Firing event 'MyVehicle1[1].Released'.
+0.00877777777777774,MyVehicle1[1],MyVehicle1[1],6.OnCapacityReleased,[End],Process 'MyVehicle1[1].OnCapacityReleased' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,4.Process2,[End],Process 'Process2' execution ended.
+0.00877777777777774,MyVehicle1[1],Model1,3.Process1,[End],Process 'Process1' execution ended.
+0.0115555557197654,MyVehicle1[1],Output@Source1,3.OnExited,[Begin],Process 'Output@Source1.OnExited' execution started.
+0.0115555557197654,MyVehicle1[1],Output@Source1,3.OnExited,[Fire] ExitedEvent,Firing event 'Output@Source1.Exited'.
+0.0115555557197654,MyVehicle1[1],Output@Source1,3.OnExited,[End],Process 'Output@Source1.OnExited' execution ended.
+
