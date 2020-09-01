@@ -21,31 +21,31 @@ Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
 0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MyVehicle1[1]' searching 'Model3.Global.VisitRequestQueue' which contains '0' request(s).
 0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[PlanVisit] InitialMoveOrTransportRequests,Entity 'MyVehicle1[1]' failed to find and plan an eligible visit request.
 0,MyVehicle1[1],MyVehicle1[1],0.OnRunInitialized,[End],Process 'MyVehicle1[1].OnRunInitialized' execution ended.
-0.00225,MyVehicle1[1],MyVehicle1[1],0.Process1,[Begin],Process 'MyVehicle1[1].Process1' execution started.
-0.00225,MyVehicle1[1],MyVehicle1[1],0.Process1,[Execute] Execute1,Executing process 'Process3'.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Begin],Process 'Process3' execution started.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Assign] Assign1,Assigning state variable 'MoveToken.2.PreviousNode' the value 'Output@Source1'. Previous value was 'Nothing'.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Searching collection '[TableRows] Orders' containing '8' item(s). 
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Searching collection in the forward direction for maximum of '1' item(s).
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Index range of search is from starting index '1' to ending index '8'.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Item 'Orders[6]' found at index '6' in the collection.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,'1' item(s) found by search.
-0.00225,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Created token 'MoveToken.4' associated with item 'Orders[6]' found at index '6' in the collection.
-0.00225,MyVehicle1[1],Model3,4.Process3,[Transfer] Transfer2,Entity 'MyVehicle1[1]' initiating transfer from '[Station] Output@Source1.ParkingStation' into free space of facility 'Model3'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Begin],Process 'MyVehicle1[1].OnEnteredFreeSpace' execution started.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.EnteredFreeSpaceFromNode' the value '1'. Previous value was '0'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.NetworkPathNextLink' the value 'Path3'. Previous value was 'Nothing'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.NetworkPathNextNode' the value 'TransferNode6'. Previous value was 'Nothing'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.DestinationNode' the value 'TransferNode6'. Previous value was 'Nothing'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDestinationNode,Token branching on condition 'FreeSpaceSteeringToken.DestinationNode != Nothing'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDestinationNode,Token sent to 'True' exit.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[SetNode] NextDestination,Destination node of entity 'MyVehicle1[1]' set to value 'TransferNode6'.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDirectToDestination,"Token branching on condition 'Math.If(FreeSpaceSteeringBehavior == List.FreeSpaceSteeringBehaviorType.DirectToDestination || CurrentNetwork == Nothing || !FreeSpaceSteeringToken.EnteredFreeSpaceFromNode, True, !CurrentNetwork.PathExists(PreviousNode, DestinationNode))'."
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDirectToDestination,Token sent to 'True' exit.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Entity 'MyVehicle1[1]' starting free space travel movement to coordinates 'X=2 Y=0 Z=-9' Meters.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Setting movement rate of entity 'MyVehicle1[1]' to desired maximum value '720' Meters per Hour.
-0.00225,MyVehicle1[1],Model3,2.Process3,[End],Process 'Process3' execution ended.
-0.00225,MyVehicle1[1],MyVehicle1[1],0.Process1,[End],Process 'MyVehicle1[1].Process1' execution ended.
-0.00225,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Cancelling previous free space travel movement of entity 'MyVehicle1[1]'.
-0.00225,MyVehicle1[1],Model3,4.Process3,[Travel] Travel2,Error performing free space travel movement of entity 'MyVehicle1[1]'. The value for property 'NetworkName' is a null or undefined reference.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],0.Process1,[Begin],Process 'MyVehicle1[1].Process1' execution started.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],0.Process1,[Execute] Execute1,Executing process 'Process3'.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Begin],Process 'Process3' execution started.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Assign] Assign1,Assigning state variable 'MoveToken.2.PreviousNode' the value 'Output@Source1'. Previous value was 'Nothing'.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Searching collection '[TableRows] Orders' containing '8' item(s). 
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Searching collection in the forward direction for maximum of '1' item(s).
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Index range of search is from starting index '1' to ending index '8'.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Item 'Orders[6]' found at index '6' in the collection.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,'1' item(s) found by search.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[Search] Search1,Created token 'MoveToken.4' associated with item 'Orders[6]' found at index '6' in the collection.
+0.00788888888888886,MyVehicle1[1],Model3,4.Process3,[Transfer] Transfer2,Entity 'MyVehicle1[1]' initiating transfer from '[Station] Output@Source1.ParkingStation' into free space of facility 'Model3'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Begin],Process 'MyVehicle1[1].OnEnteredFreeSpace' execution started.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.EnteredFreeSpaceFromNode' the value '1'. Previous value was '0'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.NetworkPathNextLink' the value 'Path5'. Previous value was 'Nothing'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.NetworkPathNextNode' the value 'TransferNode7'. Previous value was 'Nothing'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Assign] OnEnteredFreeSpaceAssignments,Assigning state variable 'MyVehicle1[1].FreeSpaceSteeringToken.5.DestinationNode' the value 'TransferNode7'. Previous value was 'Nothing'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDestinationNode,Token branching on condition 'FreeSpaceSteeringToken.DestinationNode != Nothing'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDestinationNode,Token sent to 'True' exit.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[SetNode] NextDestination,Destination node of entity 'MyVehicle1[1]' set to value 'TransferNode7'.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDirectToDestination,"Token branching on condition 'Math.If(FreeSpaceSteeringBehavior == List.FreeSpaceSteeringBehaviorType.DirectToDestination || CurrentNetwork == Nothing || !FreeSpaceSteeringToken.EnteredFreeSpaceFromNode, True, !CurrentNetwork.PathExists(PreviousNode, DestinationNode))'."
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Decide] IfDirectToDestination,Token sent to 'True' exit.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Entity 'MyVehicle1[1]' starting free space travel movement to coordinates 'X=2 Y=0 Z=7.25' Meters.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Setting movement rate of entity 'MyVehicle1[1]' to desired maximum value '720' Meters per Hour.
+0.00788888888888886,MyVehicle1[1],Model3,2.Process3,[End],Process 'Process3' execution ended.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],0.Process1,[End],Process 'MyVehicle1[1].Process1' execution ended.
+0.00788888888888886,MyVehicle1[1],MyVehicle1[1],5.OnEnteredFreeSpace,[Travel] DirectToDestination,Cancelling previous free space travel movement of entity 'MyVehicle1[1]'.
+0.00788888888888886,MyVehicle1[1],Model3,4.Process3,[Travel] Travel2,Entity 'MyVehicle1[1]' starting free space travel movement following the shortest path from 'Output@Source1' to 'TransferNode6' using network 'Global'.
 
